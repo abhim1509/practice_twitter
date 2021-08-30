@@ -1,0 +1,260 @@
+body{
+    background: #fff;
+    margin: 0;
+}
+
+.logo{
+    fill: rgb(29, 161, 242) !important;
+    margin-left: 5px;
+}
+.r-8kz0gk {
+    height: 2rem;
+}
+.r-lrsllp {
+    width: 24px;
+}
+.r-16y2uox {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.r-13gxpu9 {
+    color: rgba(29,161,242,1.00);
+}
+
+.body-content{
+    display: flex;
+    border: 1px solid rgb(233, 230, 230); 
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+}
+
+.main-home-icon > svg{
+    color: rgb(0,0,0);
+    fill: rgb(0,0,0) !important;
+}
+.left-content, .main-content, .right-content{
+    margin: 1px;
+    height: 100vh;
+}
+
+.left-content{
+    border-right: 1px solid rgb(233, 230, 230);
+    flex: 2.5;
+    padding: 10px;
+}
+
+.main-content{
+    flex:5;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(233, 230, 230);
+    border-bottom: 1px solid rgb(233, 230, 230);
+    align-items: center;
+    padding: 0 10px;
+}
+
+.right-content{
+    flex: 2.5;
+    padding: 10px;
+}
+
+.nav-links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-radius: 9999px;
+    text-decoration: none;
+    color: rgba(0,0,0, 0.6);
+    padding: 15px 10px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+svg{
+    fill: rgba(0,0,0, 0.6);
+    width: 20px;
+    height: 20px;
+}
+.upper-lower-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home-container, .explore-container, .notifications-container, .messages-container, 
+.bookmarks-container, .lists-container, .profile-container, .more-container{
+    border-radius: 9999px;
+    cursor: pointer;
+    margin: 15px 0;
+    color: rgb(0,0,0);
+}
+
+
+.tweet-btn-container{
+    border-radius: 9999px;
+    cursor: pointer;
+    padding: 10px 80px;
+
+}
+span{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-weight: 700;
+    
+    
+}
+
+.tweet-btn-container{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+}
+
+.profile-container > img{
+    border-radius: 9999px;
+}
+
+.update-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(233, 230, 230); 
+    padding: 10px;
+}
+
+.whats-happpening{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;    
+    width: 100%;
+    padding-top: 35px;
+}
+
+input{
+    font-size: 20px;
+    border: none;
+
+}
+
+input :hover{
+    border: none;
+}
+
+.left-links svg{
+    fill: rgb(29, 161, 242);
+    color: rgb(29, 161, 242)
+}
+
+.everyone-can-reply-container{
+    display: flex;
+    flex-direction: row;
+    color: rgb(29, 161, 242);
+    border-bottom: 1px solid rgb(233, 230, 230);;
+}
+
+.update-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btn-tweet > button{
+    color: white;
+    background-color: rgba(29, 161, 242, 0.3);
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.right-input{
+    padding: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 9999px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.search-icon > svg{
+    margin-right: 10px;
+}
+.right-input >input{
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    border-radius: 9999px;
+    
+}
+
+.left-links > svg{
+    margin-right: 10px;
+}
+
+.left-links{
+    margin-top: 10px;
+}
+
+.whats-happening-container{
+    background-color: rgb(243, 240, 240);
+    padding: 1px 15px;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+
+.whats-happening-container >h2{
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.world-news-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.world-news-img>img{
+    height: 68px;
+    width: 68px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: 7px;
+}
+
+.world-news-tag{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(83, 100, 113);
+    font-family: "Segoe UI";
+}
+
+.world-news-heading{
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Segoe UI";
+}
